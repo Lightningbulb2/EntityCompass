@@ -1,0 +1,12 @@
+name: EntityCompass
+version: '${project.version}'
+main: me.lightningbulb.entitycompass.EntityCompass
+api-version: "1.20"
+authors: [Lightningbulb]
+description: this plugin will allow the assignment of entities (players, items, mobs) into categories and then players that are in categories can point their compass to entities also in the category system
+website: https://www.youtube.com/@Lightningbulb1
+commands:
+  EntityCompass:
+    description: Base command for all plugin commands.
+    usage: /<command>
+    aliases: [e]
